@@ -1,0 +1,45 @@
+#navbar{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none ;
+}
+a{
+    color: beige;
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 2.5rm;
+
+}
+a ::shadow{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+    h2{
+        font-size: 2.5rem;
+    }
+}
